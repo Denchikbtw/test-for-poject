@@ -1,0 +1,198 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.container-modal {
+    width: 95%;
+    max-width: 335px;
+    height: 95%;
+    max-height: 903px;
+    overflow: scroll;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01), 0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02), 0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03), 0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03), 0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04), 0px 0px 223px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+                                /** MODAL TITLE **/
+
+.modal-title {
+    color: #141414;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+}
+
+                                /** MODAL CLOSE BTN **/
+
+.btn-close-modal {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+                                /** SECTIONS **/
+
+.sections-mob {
+    background-color: #FAF3E7;
+    height: 119px;
+    display: flex;
+    border-radius: 20px;
+    position: relative;
+}
+
+.title-sections {
+    color: #141414;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+}
+
+.description-sections {
+    color: #141414;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.28px;
+}
+
+.modal-title-wrap {
+    padding-left: 20px;
+}
+
+.cabbage-basket-section {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.cabbage-mob-img {
+    padding-left: 20px;
+    padding-top: 33px;
+    padding-bottom: 2px;
+}
+
+.tomato-basket-section {
+    margin-bottom: 12px;
+}
+
+.tomato-mob-img {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.vegetables-section {
+    margin-bottom: 40px;
+}
+
+.vegetables-mob-img {
+    padding-top: 30px;
+}
+
+                                /** MODAL FORM **/
+
+.modal-input {
+    color: rgba(20, 20, 20, 0.50);;
+    width: 100%;
+    height: 46px;
+    background-color: transparent;
+    border: 1px solid rgba(20, 20, 20, 0.30);
+    border-radius: 100px;
+    padding-left: 24px;
+    outline: transparent;
+    padding-right: 20px;
+    margin-bottom: 14px;
+}
+
+.modal-input::placeholder {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+}
+
+                                /** TEXT AREA **/
+
+.modal-text-area {
+    width: 100%;
+    height: 132px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(20, 20, 20, 0.50);
+    background-color: transparent;
+    border: 1px solid rgba(20, 20, 20, 0.30);
+    border-radius: 20px;
+    padding: 14px 24px;
+    outline: transparent;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.modal-text-area::placeholder {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+}
+
+.btn-submit-modal {
+    border-radius: 100px;
+    background-color: #FC8A11;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+                                /** CHECKBOX **/
+
+.checkbox-modal {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    cursor: pointer;
+}
+
+.checkbox-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #a1c487;
+    border-radius: 4px;
+    fill: transparent;
+}
+
+.checkbox-modal:checked + .checkbox-list {
+    fill: #A1C487;
+}
