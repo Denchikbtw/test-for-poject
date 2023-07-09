@@ -1,0 +1,60 @@
+
+@media screen and (min-width: 704px) {
+    .container-modal {
+        max-width: 704px;
+        max-height: 853px;
+    }
+
+                            /** MODAL TITLE **/
+
+    .container-modal {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .modal-title {
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: -1.6px;
+    }
+
+    .sections-mob {
+        display: inline-flex;
+        /* gap: 12px; */
+        max-width: 200px;
+        /* min-height: 250px; */
+    }
+
+                            /** MODAL FORM **/
+
+    .modal-form {
+        max-width: 370px;
+    }
+    
+    .modal-input {
+        max-width: 360px;
+        max-height: 48px;
+    }
+
+    .modal-text-area {
+        max-width: 360px;
+        max-height: 145px;
+    }
+
+                            /** BTN MODAL **/
+
+    .btn-submit-modal {
+        padding: 15px 35px;
+    }
+
+                            /** IMG GIRL **/
+                           
+    .img-girl-tab {
+        display: inline;
+    }
+
+
+    .vegetables-mob-img {
+        padding-top: 0;
+    }
+}

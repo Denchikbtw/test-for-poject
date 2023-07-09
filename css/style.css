@@ -161,6 +161,8 @@
     letter-spacing: -0.56px;
 }
 
+                                /** BTN MODAL **/
+
 .btn-submit-modal {
     border-radius: 100px;
     background-color: #FC8A11;
@@ -193,6 +195,8 @@
     fill: transparent;
 }
 
-.checkbox-modal:checked + .checkbox-list {
+.checkbox-modal:checked + .checkbox-label >.checkbox-list {
     fill: #A1C487;
 }
+
+
